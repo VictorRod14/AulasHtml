@@ -1,0 +1,5 @@
+#include <iostream>
+using namespace std;
+int main(){
+	cout <<"Bem vindo (a) ao curso de S.I.";
+}

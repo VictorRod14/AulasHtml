@@ -3,22 +3,21 @@
         <h1> <center>Minha lista </center> </h1>
         <ol>
             <li>Cozinha</li>
-            <ol>
+            <li>Geladeira</li>
+        </ol>
                 <li>Armario</li>
                 <ul>
                     <li>Detergente</li>
                     <li>Arroz</li>
                     <li>Farinha</li>
                 </ul>
-             <ol><li>Geladeira</li></ol>
-             <li>Agua</li>
-             <li>Pepsi</li>
-             <li>Frango</li>
-            
-            </ol>
-        </ol>
-      
-        
-
+             <ol>
+                <li>Area de serviço</li></ol>
+                <li>Armario</li>
+            <ul>
+             <li>Sabao em po</li>
+             <li>Amaciante</li>
+             <li>Desinfetante</li>
+            </ul>
     </body>
 </html>

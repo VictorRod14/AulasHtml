@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width", inital="scale 1.0">
+    <title> Document</title>
+</head>
+<body>
+    <form action=./index>
+        <label for="email"> Email </label>
+        <input style="display:block" id="email" type="email" name="qualquerum" placeholder="ensira um email valído"/>
+        
+        <label for="password"> senha</label>
+        <input style="display:block" id="password" type="password" name="password"/>
+
+        <label for="text"> Texto </label>
+        <input style="display:block" id="text" type="text" name="text" />
+
+        <label for="radio"> Masculino</label>
+        <input style="display:block" id="Masculino" type="masculino" name="masculino" />
+
+        <label for="radio"> Feminino</label>
+        <input style="display:block" id="Feminino" type="feminio" name="Feminino" />
+
+        <label for="range"> Range</label>
+        <input style="display:block" id="range" type="range" name="range" />
+
+
+
+
+        
+    </form>
+</body>

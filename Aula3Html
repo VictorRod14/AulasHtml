@@ -1,0 +1,23 @@
+<html>
+<body>
+    <table border="2" <capition><center><b>Tabela 3 aula Html</b></capition>
+        <thead>
+        <tr>
+            <th>Dia</th> <th>Aula</th>
+        </tr></thead>
+        <tbody>
+        <tr>
+            <td>Seg. </td><td>Algoritmo</td>
+        </tr></tbody>
+        <tr>
+            <td>Ter.</td><td>Algebra/Etica</td>
+        </tr>
+        <tr>
+            <td>Qua.</td><td>Desenvolvimento Web</td>
+        </tr>
+        <tr>
+            <td>Qui.</td><td>Administracao</td>
+        </tr> <tr>
+            <td>Sex.</td><td>Logica/Sistemas Integrados</td>
+        </tr>
+    </table>

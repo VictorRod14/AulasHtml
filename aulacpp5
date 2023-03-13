@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+	float x,y;
+	cout<< "escreva o primeiro numero: ";
+	cin>>x;
+	cout<< "escreva o segundo numero:";
+	cin>>y;
+	cout<< "o resultado da divisao dos numeros e:";
+	cout<< (x/y);
+}

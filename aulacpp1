@@ -1,0 +1,7 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int a=1048, b=219;
+	cout<< "a diferenca entre os termos e:";
+	cout<< 1048-219;
+}

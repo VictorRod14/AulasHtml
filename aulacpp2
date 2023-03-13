@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int x;
+	cout<< "insira um numero inteiro:";
+	cin>>x;
+	cout<< "o dobro do valor e:";
+	cout<< x*2;
+}

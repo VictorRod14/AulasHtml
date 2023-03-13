@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+	float x, y;
+	cout<< "insara um valor real:";
+	cin>>x;
+	cout<< "insira outro valor real:";
+	cin>>y;
+	cout<< "a soma do quadrados dos numeros e:";
+	cout<<(x*x)+(y*y);
+}

@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <body>
+            <a href="exercicio.html" name="link1>"> link interno</a><br>
+            <a href="https://google.com.br" name="link2>"> link externo</a><br>
+            <a href="https://esup.com.br" name="link3>"> link externo2</a><br>
+            <a href="https://bfbshop.com.br" name="link4>"> link externo3</a><br>
+        </body>
+    </head>
+</html>

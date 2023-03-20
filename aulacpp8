@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+int main(){
+	float n1,n2,n3,n4;
+	char op;
+	cout<< "Informe qual operacao [+,-,*,/:] ";
+	cin>> op;
+	cout<< "Informe o valor do primeiro numero:";
+	cin>> n1;
+	cout<< "Informe o valor do segundo numero:";
+	cin>> n2;
+		if (op=='+'){
+			n1= n1+n2;
+		cout<< "O resultado e:"<<n1<<endl;
+	}
+		if (op=='-'){
+			n2= n1-n2;
+		cout<< "O resultado e:"<<n2<<endl;
+	}
+	if (op=='*'){
+			n3= n1*n2;
+		cout<< "O resultado e:"<<n3<<endl;
+	}
+	if (n2!=0){
+		n4= n1/n2;
+		cout<< "O resultado e:"<<n4<<endl;
+	}
+		else{
+			cout<< "Nao e possivel dividir por zero";
+		}
+}
+	

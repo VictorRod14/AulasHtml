@@ -9,19 +9,23 @@ int main(){
 	cin>> n1;
 	cout<< "Informe o valor do segundo numero:";
 	cin>> n2;
+	//estrutura da soma
 		if (op=='+'){
 			n1= n1+n2;
 		cout<< "O resultado e:"<<n1<<endl;
 	}
+	//estrutura da subratacao
 		if (op=='-'){
 			n2= n1-n2;
 		cout<< "O resultado e:"<<n2<<endl;
 	}
-	if (op=='*'){
+	//estrutura da multiplicacao
+		if (op=='*'){
 			n3= n1*n2;
 		cout<< "O resultado e:"<<n3<<endl;
 	}
-	if (n2!=0){
+	//estrutura da divisao
+		if (n2!=0){
 		n4= n1/n2;
 		cout<< "O resultado e:"<<n4<<endl;
 	}
@@ -29,4 +33,3 @@ int main(){
 			cout<< "Nao e possivel dividir por zero";
 		}
 }
-	

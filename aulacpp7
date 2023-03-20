@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+	float n1,n2, resutado;
+	cout<< "Informe o primeiro numero:";
+	cin>>n1;
+	cout<< "Informe o segundo numero:";
+	cin>>n2;
+	if (n2!=0){
+		resutado= n1/n2;
+		cout<< "O resultado e:" <<resutado<< endl;
+	}
+	else{
+		cout<< "Erro divisao por zero";
+	}
+}

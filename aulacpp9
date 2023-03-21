@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+	//declara a variavel x e inicializa
+	//inicializar = inserir um valor inicial para variavel contadora ou controlado
+	int x=0;
+	while(x<=10){ //enquanto (x<=10)faca
+		cout<<x<<endl;
+		x++;
+	}
+	int y=10;
+	while (y>=0){
+		cout<<y<<endl;
+		y--;}
+
+}

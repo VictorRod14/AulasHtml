@@ -4,9 +4,10 @@
       <h2><p style="color:white">Curso de Sistemas de Informação</p></h2>
         <h3><p style="color:white">Paulo Victor Avelar Rodovalho</p></h3>
     </header>
+
 <body 
-    background="Projeto Html/src/imagem3.png" height="100%" margin="0px">
-    <video src="Projeto Html/src/projeto.mp4" autoplay muted controls width="500"">
+    background="src/imagem3.png" height="100%" width="100%">
+    <video src="src/projeto.mp4" autoplay muted controls width="500"">
     </video>
     <ol>
         <li>
@@ -27,8 +28,8 @@
         <a href="http://sei.esup.edu.br/">Portal Acadêmico</a></br>
         </ul>
     </ol>
-        <b><p style="color: white">Desenvolvido por:</b>
-            <a href="Projeto Html/segundapag.html">
+            <b><p style="color: white">Desenvolvido por:</b>
+            <a href="pag2.html">
                 Clique Aqui
     </a>
        

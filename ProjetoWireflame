@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: image-set(piramide.jpeg)
+            background-attachment: fixed;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-color: black;
+        }
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        header h1, header h2, header h3 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin-right: 200px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: x-large;
+        }
+
+
+main {
+	padding: 40px 0;
+}
+
+main .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+main .sidebar {
+	flex-basis: 25%;
+}
+
+main .sidebar h2 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+main .sidebar ul {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+main .sidebar ul li {
+	margin-bottom: 5px;
+}
+
+main .content {
+	flex-basis: 70%;
+}
+
+main .content h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+main .content p {
+	line-height: 1.5;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0
+}
+table {
+			border-collapse: collapse;
+			margin: 20px;
+			width: 30%;
+			float: left;
+		}
+		
+		th, td {
+			padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+		
+		th {
+			background-color: #141414;
+			color: white;
+		}
+
+    </style>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<nav>
+				<ul>
+					<li><a href="#">Sobre Nós</a></li>
+					<li><a href="#">Entre em Contato</a></li>
+					<li><a href="#">Anuncie Aqui</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="sidebar">
+				<h2>Navegação</h2>
+				<ul>
+					<li>Insira seu Currículo</li>
+					<li>Busque Oportunidades</li>
+					<li>Consulte nossos especialistas</li>
+				</ul>
+			</div>
+			<div class="content">
+                <right>
+                    <h1>Vagas de Emprego em Sistemas de Informação</h1>
+                    <p>Estamos contratando profissionais qualificados para atuar na área de Sistemas de Informação. Confira abaixo as três vagas disponíveis:</p>
+                    
+                    <table>
+                        <tr>
+                            <th>Desenvolvedor Jr.</th>
+                        </tr>
+                        <tr>
+                            <td>Requisitos:</td>
+                        </tr>
+                        <tr>
+                            <td>- Experiência em desenvolvimento de sistemas</td>
+                        </tr>
+                        <tr>
+                            <td>- Conhecimento em linguagens de programação como Java, Python ou C#</td>
+                        </tr>
+                        <tr>
+                            <td>- Formação em Sistemas de Informação ou áreas afins</td>
+                        </tr>
+                        <tr>
+                            <td>Remuneração: R$ 5.000,00</td>
+                        </tr>
+                    </table>
+                    
+                    <table>
+                        <tr>
+                            <th>Analista de Sistemas</th>
+                        </tr>
+                        <tr>
+                            <td>Requisitos:</td>
+                        </tr>
+                        <tr>
+                            <td>- Experiência em análise de sistemas</td>
+                        </tr>
+                        <tr>
+                            <td>- Conhecimento em metodologias ágeis</td>
+                        </tr>
+                        <tr>
+                            <td>- Formação em Sistemas de Informação ou áreas afins</td>
+                        </tr>
+                        <tr>
+                            <td>Remuneração: R$ 6.000,00</td>
+                        </tr>
+                    </table>
+                    
+                    <table>
+                        <tr>
+                            <th>Analista de Banco de Dados</th>
+                        </tr>
+                        <tr>
+                            <td>Requisitos:</td>
+                        </tr>
+                        <tr>
+                            <td>- Experiência em administração de bancos de dados</td>
+                        </tr>
+                        <tr>
+                            <td>- Conhecimento em SQL</td>
+                        </tr>
+                        <tr>
+                            <td>- Formação em Sistemas de Informação ou áreas afins</td>
+                        </tr>
+                        <tr>
+                            <td>Remuneração: R$ 4.500,00</td>
+                        </tr>
+                    </table>
+                    
+		</div>
+	</main>
+
+	<footer>
+		<div class="container">
+			<p>Copyright © 2023 Victor Rodovalho.
+			Todos os direitos reservados.</p>
+		</div>
+	</footer>
+</body>
+<body
+    background="projetowireflame/piramide.jpeg"></body>
+
+</html>

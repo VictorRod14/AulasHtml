@@ -1,36 +1,130 @@
 <!DOCTYPE html>
+<head>
+   
+    <style>
+        body{
+            background-image: image-set(imagem3.png);
+            background-attachment: fixed;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-color: black;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        header h1, header h2, header h3 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+
 <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="#">Sites fundamentais</a>
+          <ul class="submenu">
+            <li><a href="https://github.com/">GitHub</a></li>
+            <li><a href="https://google.com.br/">Buscador</a></li>
+            <li><a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SBxUHF5NElFQWRxRjR3U0JxdjhmNVo0cm9kdkhVbE5nUaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGZDQkhSb1BZN1ZTeTJQeUdNQV8yMXFHUXkxSDJBQUc2o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc">ChatGPT</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Links Faculdade</a>
+          <ul class="submenu">
+            <li><a href="https://esup.edu.br/secretariageral/">Secretaria Geral ESUP</a></li>
+            <li><a href="https://esup.edu.br/fale-conosco/">Fale Conosco</a></li>
+            <li><a href="http://sei.esup.edu.br/">Portal Acadêmico</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="credits">
+      <p>Desenvolvido por: <a href="pag2.html">Clique Aqui</a></p>
+    </div>
+  </header>
+  
+  <style>
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      padding: 10px 20px;
+    }
+    .menu a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      font-size: 18px;
+      transition: all 0.2s ease-in-out;
+    }
+    .menu a:hover {
+      background-color: #444;
+    }
+    .submenu {
+      display: none;
+      position: absolute;
+      background-color: #444;
+      width: 200px;
+      margin-top: 10px;
+      z-index: 1;
+    }
+    .submenu a {
+      padding: 10px;
+      font-weight: normal;
+      font-size: 16px;
+      border-bottom: 1px solid #666;
+    }
+    .submenu a:last-child {
+      border-bottom: none;
+    }
+    .menu li:hover > .submenu {
+      display: block;
+    }
+    
+    .credits {
+      background-color: #333;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    .credits a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: all 0.2s ease-in-out;
+    }
+    .credits a:hover {
+      opacity: 0.8;
+    }
+  </style>
+  </head>
+<body>
+    <center>
     <h1><strong><p style="color:blue">Faculdade Esup</p></strong></h1>
       <h2><p style="color:white">Curso de Sistemas de Informação</p></h2>
         <h3><p style="color:white">Paulo Victor Avelar Rodovalho</p></h3>
-    </header>
-
-<body 
-    background="src/imagem3.png" height="100%" width="100%">
-    <video src="src/projeto.mp4" autoplay muted controls width="500"">
-    </video>
-    <ol>
-        <li>
-           <b><p style="color: white">Sites fundamentais</b>
-        </li>
-        <ul>
-            <a href="https://github.com/">Git Hub</a></br>
-            <a href="https://google.com.br/">Buscador</a></br>
-            <a href="https://auth0.openai.com/u/login/identifier?state=hKFo2SBxUHF5NElFQWRxRjR3U0JxdjhmNVo0cm9kdkhVbE5nUaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGZDQkhSb1BZN1ZTeTJQeUdNQV8yMXFHUXkxSDJBQUc2o2NpZNkgVGRKSWNiZTE2V29USHROOTVueXl3aDVFNHlPbzZJdEc">ChatGPT</a></br>
-        </ul>
-    </ol>
-    <ol>
-        <li>
-            <b><p style="color: white">Links Faculdade</b>
-        </li>
-        <a href="https://esup.edu.br/secretariageral//">Secretaria Geral ESUP</a></br>
-        <a href="https://esup.edu.br/fale-conosco/">Fale Conosco</a></br>
-        <a href="http://sei.esup.edu.br/">Portal Acadêmico</a></br>
-        </ul>
-    </ol>
-            <b><p style="color: white">Desenvolvido por:</b>
-            <a href="pag2.html">
-                Clique Aqui
-    </a>
-       
+    
+<body
+    background="src/imagem3.png" height="100%" width="100%"></body>
+    <video src="src/projeto.mp4" autoplay muted loop controls width="500"">
+    </video>    
+    </center> 
 </body>

@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main(){
+	float n1,n2;
+	int opc;
+	do {
+		
+	cout<< "Informe o primeiro numero: "<<endl;
+	cin>>n1;
+	cout<< "Informe o segundo numero: "<<endl;
+	cin>>n2;
+	if (n1==n2){
+	
+	cout<< "Os numeros sao iguais"<<endl;
+	}
+	if (n1>n2){
+		cout<< "O numero 1 e maior que o numero 2"<<endl;
+	}
+	if (n1>n2){
+		cout<< "O numero 1 e menor que o numero 2"<<endl;
+	}
+	cout<<" Deseja continuar? Tecle 0 para sair"<<endl;
+	cin>>opc;
+	}
+	while (opc!=0);
+	// validar o teste no final
+}

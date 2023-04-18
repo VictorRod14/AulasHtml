@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+int main(){
+string nome;
+double rendimento;
+float imp1;
+cout<<"Digite seu nome:";
+getline (cin,nome);
+cout<<"Informe seu rendimento anual:";
+cin>>rendimento;
+if(rendimento<=22847.86){
+	cout<<"Isento"<<endl;
+}
+if ((rendimento>=22847.87)&&(rendimento<=33919.80)){
+	imp1=rendimento*0.075;
+	cout<< "O valor do imposto eh:"<<imp1<<endl;
+	cout<<"Imposto de 7,5%"<<endl;
+	cin>>imp1;
+	
+}
+if ((rendimento>=33919.81)&&(rendimento<=45012.60)){
+	imp1=rendimento*0.15;
+	cout<< "O valor do imposto eh:"<<imp1<<endl;
+	cout<<"Imposto de 12,5%"<<endl;
+	cin>>imp1;
+	
+}
+if (rendimento>=55916.17){
+	imp1=rendimento*0.275;
+	cout<< "O valor do imposto eh:"<<imp1<<endl;
+	cout<<"Imposto de 27,5%"<<endl;
+	cin>>imp1;
+}
+}

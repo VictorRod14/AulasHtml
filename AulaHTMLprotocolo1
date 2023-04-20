@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+<fieldset> 
+<legend>Dados Pessoais</legend>
+<label>Nome</label>
+<input style="display-block" id="nome" type="text" placeholder="digite seu nome" /></br>
+<label>Endereço</label>
+<input style="display-block" id="endereço" type="text" placeholder="digite seu endereço" /></br>
+<label>Cidade</label>
+<input style="display-block" id="cidade" type="text" placeholder="digite sua cidade" /></br>
+<label>Selecione sua Unidade Federativa</label>
+<select>
+    <option>GO</option>
+    <option>TO</option>
+    <option>SP</option>
+    <option>RJ</option></br>
+</select>
+</fieldset>
+
+
+<fieldset> 
+<legend>Dados Profissionais</legend>
+<label>Cargo</label></br>
+<input style="display:block" id="Gerente" type="radio" name="Gerente" />

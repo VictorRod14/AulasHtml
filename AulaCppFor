@@ -20,3 +20,23 @@ int main(){
 		}
 
 }
+
+// Calculo Fatorial
+#include<iostream>
+using namespace std;
+int main(){
+	int num=0, fatorial=1;
+	do{
+	
+	cout<< "Calculo do fatorial;"<<endl;
+	cout<< "Digite um numero inteiro:";
+	cin>> num;
+	for (int i=1;i<=num;i++){
+		fatorial= fatorial*i;
+}
+
+	cout<<"O fatorial do numero " <<num<<" eh "<<fatorial<<endl;
+	cout<< "Deseja continuar? Digite zero para sair "<<endl;
+	fatorial=1;
+	}while (num!=0);
+}

@@ -1,3 +1,4 @@
+// contagem crescente de dois em dois
 #include<iostream>
 using namespace std;
 int main(){
@@ -6,4 +7,16 @@ int main(){
 				cout<< i<< ",";
 
 }
+}
+
+
+// contagem decrescente
+#include<iostream>
+using namespace std;
+int main(){
+	int i;
+		for (int i=100;i>=0;i--){
+				cout<< i<< ",";
+		}
+
 }

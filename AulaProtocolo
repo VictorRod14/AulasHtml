@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+<h3>MANUNTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h3>
+<label>Login</label>
+<input style="display-block" id="nome" type="text" placeholder="digite seu login" /></br>
+<label>Senha</label>
+<input style="display-block" id="endereço" type="text" placeholder="digite sua senha" /></br>
+<label>Status</label>
+<select>
+    <option>Ativo</option>
+    <option>Inativo</option></br>
+</select></br>
+<label>Tipo</label>
+<input style="font-display: ;" id="Técnico" type="radio" name="nome"><label for=Técnico>Técnico</label>
+<input style="font-display: ;" id="Professor" type="radio" name="nome"><label for=Professor>Professor</label>
+<input style="font-display: ;" id="Aluno" type="radio" name="nome"><label for=Aluno>Aluno</label></br>
+<label>Data Criação</label>
+<input style="display-block" id="Data endereço" type="text"/></br>
+<label>Perfil</label><input style="font-display: ;" id="Convidado" type="radio" name="Técnico"><label>Convidado</label>
+<input style="font-display: ;" id="Administrador" type="radio" name="Técnico"><label>Adminstrador</label><br/>
+<label>Oberservações</label>
+<textarea></textarea><br/>
+<label>Módulos</label>
+<input style="font-display: ;"  type="checkbox" name="função"><label>Compras</label>
+<input style="font-display: ;"  type="checkbox" name="função"><label>Biblioteca</label>
+<input style="font-display: ;"  type="checkbox" name="função"><label>Academico</label>
+<input style="font-display: ;"  type="checkbox" name="função"><label>Documentação</label>
+<input style="font-display: ;"  type="checkbox" name="função"><label>Recursos Humanos</label><br/>
+<button type="submit">Cadastrar</button>
+<button type="submit">Excluir</button>

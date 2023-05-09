@@ -1,0 +1,83 @@
+#include <iostream>
+using namespace std;
+int main (){
+    int vet[10]; // vetor de 10 posições de numeros inteiros
+    cout<< "Digite 10 numeros: " <<endl;
+    for ( int i=0; i<10;i++){//loop de controle do vetor
+        cin>> vet [i];
+}
+	cout<< "Listagem dos dados"<<endl;
+	for (int i=0; i<10; i++){
+		cout<<vet[i];
+	}
+}
+
+
+#include <iostream>
+using namespace std;
+int main (){
+    string nomes[5]; 
+    cout<< "Digite 5 nomes: " <<endl;
+    for ( int i=0; i<5;i++){//loop de controle do vetor
+        cin>> nomes [i];
+        system ("CLS");
+} 
+	cout<< "Listagem dos dados"<<endl;
+	for (int i=0; i<5; i++){
+		cout<<nomes[i]<<endl;
+		getline(cin,nomes [i]);
+	}
+}
+
+#include <iostream>
+using namespace std;
+int main (){
+	int opc;
+	string vetor[5];
+	string buscar;
+	do{
+	system ("CLS");
+	cout<< "Programa de listagem de dados:"<<endl;
+	cout<< "Escolha a opcao desejada:"<<endl;
+	cout<< "1 Cadastrar\n2- Listar\n3 - Buscar\n0-Sair"<<endl;
+	cin>>opc;
+	cin.ignore();
+	//switch...case
+	switch(opc){
+		case 1: 
+			system ("CLS");
+			cout<< "Cadastro dos Dados:"<<endl;
+			for ( int i=0; i <5; i++){
+			cout<<"Digite o nome"<< i+1<<":";
+			getline (cin,vetor [i]);
+		}
+			break;
+			 
+		case 2:
+			system ("CLS");
+			cout<< "Listagem dos Dados:"<<endl;
+			for ( int i=0; i <5; i++){
+				cout<<vetor [i]<<endl;
+			}
+			system ("PAUSE");
+			break;
+		case 3:
+			cout<< "Buscar Dados:"<<endl;
+			cout<< "Informe o nome que deseja encontrar:";
+			getline (cin,buscar);
+			for (int i=0; i<5; i++){
+				if (vetor [i]== buscar){
+					cout<<"O nome: "<< buscar<<" foi encontrado na posicao"<<i<<endl;
+					break;
+				}
+			}
+			system ("PAUSE");
+			break;
+			default:
+				cout<< "Esta opcao nao eh valida"<<endl;
+				system ("Pause");
+				break;
+	}
+	} while(opc!=0);
+	
+}
